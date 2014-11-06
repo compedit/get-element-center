@@ -1,6 +1,6 @@
 {
   "name": "get-element-center",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get the x,y coordinates of an element's center.",
   "main": "index.js",
   "repository": {
