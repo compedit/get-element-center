@@ -1,0 +1,29 @@
+{
+  "name": "get-element-center",
+  "version": "1.0.0",
+  "description": "get the x,y coordinates of an element's center.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:compedit/get-element-center.git"
+  },
+  "keywords": [
+    "coordinates",
+    "element",
+    "center",
+    "browser"
+  ],
+  "author": "troy betz <troybetz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compedit/get-element-center/issues"
+  },
+  "homepage": "https://github.com/compedit/get-element-center",
+  "scripts": {
+    "test": "browserify test/get-element-center-test.js > test/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "tape": "^3.0.2"
+  }
+}
