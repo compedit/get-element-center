@@ -1,40 +1,19 @@
 <html>
   <head>
     <title>random global test</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" href="test.css">
   </head>
-  <style>
-    .one {
-      position: absolute;
-      top: 0;
-      right: 200px;
-      width: 400px;
-      height: 400px;
-      background: red;
-    }
-
-    .two {
-      position: absolute;
-      bottom: 100px;
-      left: 100px;
-      width: 300px;
-      height: 200px;
-      background: green;
-    }
-
-    .three {
-      position: absolute;
-      bottom: 10px;
-      right: 700px;
-      width: 100px;
-      height: 500px;
-      background: blue;
-    }
-
-  </style>
   <body>
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
+    <div class="box topLeft"></div>
+    <div class="box topRight"></div>
+    <div class="box bottomLeft"></div>
+    <div class="box bottomRight"></div>
+    <div class="box center"></div>
+
+    <div class="relativeContainer">
+      <div class="relativeCenter"></div>
+    </div>
     <script src="bundle.js"></script>
   </body>
 </html>
