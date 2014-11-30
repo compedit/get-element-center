@@ -12,8 +12,8 @@ module.exports = getElementCenter;
 
 function getElementCenter(element) {
   var dimensions = element.getBoundingClientRect();
-  var centerYCoord = element.offsetTop + (dimensions.height / 2);
-  var centerXCoord = dimensions.left + (dimensions.width / 2);
+  var centerYCoord = element.top + window.pageYOffset + (dimensions.height / 2);
+  var centerXCoord = dimensions.left window.pageXOffset + (dimensions.width / 2);
   return {
     y: centerYCoord,
     x: centerXCoord
