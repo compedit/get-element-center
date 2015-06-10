@@ -23,7 +23,7 @@
     "test": "browserify test/get-element-center-test.js > test/bundle.js"
   },
   "devDependencies": {
-    "browserify": "^6.2.0",
-    "tape": "^3.0.2"
+    "browserify": "^10.2.4",
+    "tape": "^4.0.0"
   }
 }
